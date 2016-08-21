@@ -4,6 +4,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class BukkitCodeStyle extends JavaPlugin {
 	
+	PluginManager pm = getServer().getPluginManager();
+	
 	@Override
 	public void onEnable() {
 		
@@ -13,4 +15,5 @@ public class BukkitCodeStyle extends JavaPlugin {
 	public void onDisable() {
 		
 	}
+	
 }
