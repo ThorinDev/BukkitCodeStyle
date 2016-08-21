@@ -10,7 +10,6 @@ public class BukkitCodeStyle extends JavaPlugin {
 	
 	public Permission pluginCommandNameSubname = new Permission("pluginname.permissionnode.subnode");
 	
-	
 	@Override
 	public void onEnable() {
 		registerCommands();
