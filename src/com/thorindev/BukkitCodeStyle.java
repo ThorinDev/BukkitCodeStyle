@@ -32,7 +32,7 @@ public class BukkitCodeStyle extends JavaPlugin {
 	}
 	
 	private void registerPermissions() {
-		
+		pm.addPermission(pluginCommandNameSubname);
 	}
 	
 	private void registerConfig() {
