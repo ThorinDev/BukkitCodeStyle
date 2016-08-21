@@ -1,11 +1,15 @@
 package com.thorindev;
 
+import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class BukkitCodeStyle extends JavaPlugin {
 	
 	PluginManager pm = getServer().getPluginManager();
+	
+	public Permission pluginCommandNameSubname = new Permission("pluginname.permissionnode.subnode");
+	
 	
 	@Override
 	public void onEnable() {
