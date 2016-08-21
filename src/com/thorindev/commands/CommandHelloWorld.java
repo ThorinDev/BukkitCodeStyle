@@ -23,6 +23,9 @@ public class CommandHelloWorld implements CommandExecutor {
 			sender.sendMessage(ChatColor.RED + "You need to be a player to use the command, " + ChatColor.GREEN + "/" + cmd.getName().toString());
 			return true;
 		}
+		else {
+			Player player = (Player) sender;
+		}
 		return false;
 	}
 
