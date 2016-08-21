@@ -9,7 +9,10 @@ public class BukkitCodeStyle extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		
+		registerCommands();
+		registerEvents();
+		registerPermissions();
+		registerConfig();
 	}
 	
 	@Override
