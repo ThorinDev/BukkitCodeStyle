@@ -24,7 +24,7 @@ public class BukkitCodeStyle extends JavaPlugin {
 	}
 	
 	private void registerCommands() {
-		
+		getCommand("helloworld").setExecutor(new CommandHelloWorld(this));
 	}
 	
 	private void registerEvents() {
