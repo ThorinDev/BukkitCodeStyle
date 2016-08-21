@@ -6,8 +6,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 import com.thorindev.BukkitCodeStyle;
 
-import net.md_5.bungee.api.ChatColor;
-
 public class ListenerOnJoin implements Listener {
 	
 	BukkitCodeStyle plugin;
