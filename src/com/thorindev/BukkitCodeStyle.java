@@ -4,7 +4,7 @@ import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.thorindev.commands.CommandHelloWorld;
+import com.thorindev.commands.*;
 
 public class BukkitCodeStyle extends JavaPlugin {
 	
