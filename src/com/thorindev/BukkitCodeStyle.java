@@ -4,6 +4,8 @@ import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.thorindev.commands.CommandHelloWorld;
+
 public class BukkitCodeStyle extends JavaPlugin {
 	
 	PluginManager pm = getServer().getPluginManager();
