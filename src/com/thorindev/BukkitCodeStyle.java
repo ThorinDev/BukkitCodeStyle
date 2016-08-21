@@ -5,6 +5,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.thorindev.commands.*;
+import com.thorindev.listeners.*;
 
 public class BukkitCodeStyle extends JavaPlugin {
 	
@@ -30,7 +31,7 @@ public class BukkitCodeStyle extends JavaPlugin {
 	}
 	
 	private void registerEvents() {
-		
+		pm.registerEvents(new ListenerOnJoin(this), this);
 	}
 	
 	private void registerPermissions() {
