@@ -9,11 +9,11 @@ import com.thorindev.BukkitCodeStyle;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class CommandHelloWorld implements CommandExecutor {
+public class CommandExample implements CommandExecutor {
 
 	BukkitCodeStyle plugin;
 	 
-	public CommandHelloWorld(BukkitCodeStyle instance) {
+	public CommandExample(BukkitCodeStyle instance) {
 		plugin = instance;
 	}
 
