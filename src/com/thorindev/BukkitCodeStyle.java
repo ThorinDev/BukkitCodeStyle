@@ -17,4 +17,19 @@ public class BukkitCodeStyle extends JavaPlugin {
 		
 	}
 	
+	private void registerCommands() {
+		
+	}
+	
+	private void registerEvents() {
+		
+	}
+	
+	private void registerPermissions() {
+		
+	}
+	
+	private void registerConfig() {
+		
+	}
 }
